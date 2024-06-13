@@ -1,0 +1,41 @@
+//
+// Xtreme Angular
+//
+
+//(Required file)
+@import "variable";
+
+// Import Bootstrap source files (Required file)
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+@import "../../../node_modules/bootstrap-icons/font/bootstrap-icons.scss";
+
+//This is for the components (Required file)
+@import "core/core";
+@import "scafholdings";
+@import "components";
+
+//This is for the responsive (Required file)
+@import "responsive";
+
+//In This scss you can write your scss
+@import "custom";
+
+body {
+  background-color: white !important;
+}
+
+td,
+th,
+tr,
+.form-control,
+.search-button {
+  background-color: white !important;
+}
+
+.search-button,
+.search-button:hover,
+.search-button:active {
+  border-right: 1px solid rgb(234, 234, 234);
+  border-top: 1px solid rgb(234, 234, 234);
+  border-bottom: 1px solid rgb(234, 234, 234);
+}

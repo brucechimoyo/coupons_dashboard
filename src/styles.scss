@@ -1,0 +1,74 @@
+/* You can add global styles to this file, and also import other style files */
+
+.logo-text{
+    color: rgb(1, 95, 9);
+    font-weight: 500;
+}
+
+.card-title{
+    min-width: 160px;
+}
+
+.page-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-title .title-section{
+    display: flex;
+    align-items: center;
+}
+
+.title-icon{
+    font-size: 22px;
+    margin-right: 8px;
+}
+
+.page-table-icon{
+    font-size: 16px;
+}
+
+.page-table-button{
+    background-color: rgb(255, 255, 255);
+    color: rgb(11, 162, 11);
+}
+
+.new-button{
+ margin-left: 40px;
+}
+
+.search-button{
+    background-color: rgb(240, 240, 240);
+    color: green;
+}
+
+input{
+    font-family: inherit;
+}
+
+.table{
+    background-color: white;
+}
+
+td, th{
+    padding-top: 13px !important;
+    padding-bottom: 13px !important;
+}
+
+.table-container{
+    padding-top: 10px;
+}
+
+.inactive-status-wrapper{
+    padding: 3px 12px;
+    background-color: red;
+    color: white;
+    border-radius: 24px;
+}
+
+.active-status-wrapper{
+    padding: 3px 12px;
+    background-color: rgb(11, 200, 11);
+    color: white;
+    border-radius: 24px;
+}
